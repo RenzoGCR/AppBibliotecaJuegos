@@ -1,0 +1,19 @@
+#ventana{
+    -fx-background-image:url(images/fondo.jpg);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.label#titulo{
+    -fx-text-fill: red;
+    -fx-font-size: 32px;
+}
+
+.label.formulario{
+    -fx-text-fill: blue;
+}
+
+.label.error{
+    -fx-text-fill: red;
+    -fx-font-size: 30px;
+}
