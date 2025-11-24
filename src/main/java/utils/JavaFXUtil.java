@@ -1,4 +1,4 @@
-package org.example.gestorjuegosfx.utils;
+package utils;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -50,5 +50,4 @@ public class JavaFXUtil {
         alert.initOwner(stage);
         alert.showAndWait();
     }
-
 }

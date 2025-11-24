@@ -1,4 +1,4 @@
-package Usuario;
+package user;
 
 import common.DAO;
 
@@ -21,7 +21,7 @@ public class UserDAO implements DAO<User> {
                 rs.getBoolean("is_admin")
         );
     }
-    public UserDAO(DataSource ds){
+    public UserDAO(DataSource dataSource){
         this.dataSource = dataSource;
         log.info("Inicializando UserDAO");
     }

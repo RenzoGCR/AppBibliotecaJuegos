@@ -13,7 +13,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane prefHeight="527.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NewGameFormController">
    <center>
       <VBox BorderPane.alignment="CENTER">
@@ -53,8 +52,8 @@
    <bottom>
       <FlowPane alignment="CENTER" hgap="12.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Button mnemonicParsing="false" text="Aceptar" />
-            <Button mnemonicParsing="false" text="Cancelar" />
+            <Button fx:id="btnAñadir" mnemonicParsing="false" onAction="#añadir" text="Añadir" />
+            <Button fx:id="btnCancelar" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
          </children>
       </FlowPane>
    </bottom>

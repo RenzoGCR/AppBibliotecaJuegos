@@ -1,12 +1,12 @@
-package org.example.gestorjuegosfx.utils;
+package utils;
 
-import org.example.gestorjuegosfx.user.User;
-import org.example.gestorjuegosfx.user.UserDAO;
+import user.User;
+import user.UserDAO;
 
 import java.util.Optional;
 import java.util.logging.Logger;
 
-public class AuthService{
+public class AuthService {
 
     private static UserDAO userDAO;
     private Logger logger =Logger.getLogger(AuthService.class.getName());

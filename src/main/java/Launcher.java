@@ -1,5 +1,3 @@
-package org.example.gestorjuegosfx;
-
 import javafx.application.Application;
 
 public class Launcher {
